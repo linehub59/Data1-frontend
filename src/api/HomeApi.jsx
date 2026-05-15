@@ -5,7 +5,7 @@ import {
 } from "../config/Firebase";
 
 const API =
-"https://data1-jywv.onrender.com/api/dashboard";
+"https://dat1-jywv.onrender.com/api/dashboard";
 
 export const getDashboard  =
 async () => {
