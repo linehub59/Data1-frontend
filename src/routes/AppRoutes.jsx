@@ -1,6 +1,7 @@
 import {
   Routes,
-  Route
+  Route,
+  BrowserRouter
 } from "react-router-dom";
 
 import Splash from "../pages/mobile/admin/Splash";
@@ -16,15 +17,17 @@ import User from "../pages/mobile/admin/User";
 function AppRoutes() {
 
   return(
-    <Routes>
-      <Route path="/" element={<Splash />} />
-      <Route path="/auth" element={<Auth />} />
-      <Route path="/home" element={<Dashboard />} />
-      <Route path="/bundles" element={<Bundles />} />
-      <Route path="/transactions" element={<Transactions />} />
-      <Route path="/user" element={<User />} />
-      <Route path="/profile" element={<Profile />} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Splash />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="/home" element={<Dashboard />} />
+        <Route path="/bundles" element={<Bundles />} />
+        <Route path="/transactions" element={<Transactions />} />
+        <Route path="/user" element={<User />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -37,7 +37,7 @@ function Auth() {
         googleProvider
       );
       const user = await result.user;
-   
+
 
       // USER REFERENCE
       const userRef =
@@ -91,7 +91,7 @@ function Auth() {
           B
         </div>
 
-        <h1 style={styles.title}>Welcome to BundleLink</h1>
+        <h1 style={styles.title}>Welcome to UpenflowSolutions</h1>
 
         <p style={styles.subtitle}>
           Sign in to continue to your dashboard

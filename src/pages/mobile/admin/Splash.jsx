@@ -57,7 +57,7 @@ function Splash() {
           {/* TITLE */}
 
           <h1 style={styles.title}>
-            BundleLink
+            UpenFlow
           </h1>
 
           <p style={styles.subtitle}>
@@ -119,77 +119,41 @@ function Splash() {
 
           </div>
 
-          {/* FEATURE 3 */}
 
-          <div style={styles.featureCard}>
 
-            <div style={styles.featureIcon}>
+          {/* BUTTONS */}
 
-              <FaMobileAlt />
+          <div style={styles.buttons}>
 
-            </div>
 
-            <div>
 
-              <h3 style={styles.featureTitle}>
-                All Networks
-              </h3>
 
-              <p style={styles.featureText}>
-                Safaricom, Airtel and Telkom
-              </p>
+            <button
+              style={styles.guestButton}
+              onClick={handleCreate}
+              >
 
-            </div>
+              create Account
+
+              <FaArrowRight />
+
+            </button>
 
           </div>
 
+          {
+          /* FOOTER */
+          } < p style = {
+          styles.footer
+          } >
+
+          Fast • Secure • Reliable < /p>
         </div>
-
-        {/* BUTTONS */}
-
-        <div style={styles.buttons}>
-
-          {/* CREATE ACCOUNT */}
-
-          <button
-            style={styles.createButton}
-            onClick={handleCreate}
-            >
-
-            <FaUserPlus />
-
-            Create Account
-
-          </button>
-
-          {/* CONTINUE */}
-
-          <button
-            style={styles.guestButton}
-            onClick={handleGuest}
-            >
-
-            Continue as Guest
-
-            <FaArrowRight />
-
-          </button>
-
-        </div>
-
-        {/* FOOTER */}
-
-        <p style={styles.footer}>
-
-          Fast • Secure • Reliable
-
-        </p>
-
       </div>
 
     </div>
 
-  );
+  )
 }
 
 const styles = {
