@@ -29,30 +29,19 @@ function Dashboard() {
 
         <StatCard
           title="Total Users"
-          value="12,458"
+          value="0"
           icon={<FaUsers />}
           color="#5B3DF5"
           />
 
         <StatCard
           title="Total Sales"
-          value="Ksh 1.2M"
+          value="0"
           icon={<FaMoneyBill />}
           color="#22c55e"
           />
 
-        <StatCard
-          title="Transactions"
-          value="24,856"
-          icon={<FaExchangeAlt />}
-          color="#f59e0b"
-          />
-        <StatCard
-          title="Transactions"
-          value="24,856"
-          icon={<FaExchangeAlt />}
-          color="#f59e0b"
-          />
+
       </div>
       <RecentCard
         transactions={[]}

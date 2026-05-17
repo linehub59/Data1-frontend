@@ -156,14 +156,14 @@ function User() {
 
             <div style={styles.logo}>
 
-              B
+              u
 
             </div>
 
             <div>
 
               <h1 style={styles.brandName}>
-                BundleLink
+                upenflow
               </h1>
 
               <p style={styles.brandSubtext}>
@@ -963,27 +963,27 @@ borderRadius: "22px",
 background: "#e2e8f0"
 },
 filterContainer: {
-      display: "flex",
-      flexDirection: "column",
-      gap: "18px",
-      marginBottom: "25px"
-    },
+display: "flex",
+flexDirection: "column",
+gap: "18px",
+marginBottom: "25px"
+},
 
-    filterGroup: {
-      display: "flex",
-      gap: "12px",
-      flexWrap: "wrap"
-    },
+filterGroup: {
+display: "flex",
+gap: "12px",
+flexWrap: "wrap"
+},
 
-    filterButton: {
-      border: "none",
-      padding: "12px 18px",
-      borderRadius: "14px",
-      fontWeight: "600",
-      cursor: "pointer",
-      boxShadow:
-      "0 2px 8px rgba(0,0,0,.04)"
-    },
+filterButton: {
+border: "none",
+padding: "12px 18px",
+borderRadius: "14px",
+fontWeight: "600",
+cursor: "pointer",
+boxShadow:
+"0 2px 8px rgba(0,0,0,.04)"
+},
 
 };
 

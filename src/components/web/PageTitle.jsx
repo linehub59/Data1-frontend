@@ -13,7 +13,7 @@ function PageTitle() {
         <div>
 
           <h1 style={styles.brandName}>
-            BundleLink
+            UpenflowS Solutions
           </h1>
 
           <p style={styles.brandSubtext}>
